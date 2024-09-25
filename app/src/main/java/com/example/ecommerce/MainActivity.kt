@@ -1,7 +1,5 @@
 package com.example.ecommerce
 
-
-// MainActivity.ktttt
 import ProductAdapter
 import ProductViewModel
 import android.content.Intent
@@ -33,18 +31,8 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
             recyclerView.adapter = adapter
-            println("Hello")
         }
 
         viewModel.fetchProducts()
-    }
-    fun add(){
-
-    }
-    fun sub(){
-
-    }
-    fun j(){
-
     }
 }
