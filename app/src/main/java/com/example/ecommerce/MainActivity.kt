@@ -35,4 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.fetchProducts()
     }
+    fun  add(){
+
+    }
 }
