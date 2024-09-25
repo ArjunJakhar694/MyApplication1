@@ -44,4 +44,7 @@ class MainActivity : AppCompatActivity() {
     fun sub(){
 
     }
+    fun j(){
+
+    }
 }
