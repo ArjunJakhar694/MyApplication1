@@ -1,9 +1,5 @@
 package com.example.ecommerce
 
-<<<<<<< HEAD
-=======
-// MainActivity.kt
->>>>>>> github/master
 import ProductAdapter
 import ProductViewModel
 import android.content.Intent
@@ -12,10 +8,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-<<<<<<< HEAD
-=======
-import com.example.ecommerce.R
->>>>>>> github/master
 
 class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
@@ -42,11 +34,11 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.fetchProducts()
     }
-<<<<<<< HEAD
     fun add() {
 
     }
+    fun sub() {
 
-=======
->>>>>>> github/master
+    }
+
 }
