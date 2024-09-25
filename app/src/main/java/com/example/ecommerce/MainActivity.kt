@@ -8,7 +8,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ecommerce.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
@@ -35,7 +34,5 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.fetchProducts()
     }
-    fun  add(){
 
-    }
 }
