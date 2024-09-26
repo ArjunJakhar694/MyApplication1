@@ -43,8 +43,5 @@ class MainActivity : AppCompatActivity() {
     fun division() {
 
     }
-    fun k() {
-
-    }
 
 }
