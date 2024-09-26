@@ -40,5 +40,8 @@ class MainActivity : AppCompatActivity() {
     fun sub() {
 
     }
+    fun division() {
+
+    }
 
 }
